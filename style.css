@@ -428,7 +428,18 @@ nav {
   grid-template-columns: repeat(5, 1fr) !important;
   gap: 0;
 }
+.why-grid > div {
+  padding: 22px 15px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.why-grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.14);
+}
 .why-grid div {
   padding: 12px 18px;
   border-right: 1px solid #ddd;
